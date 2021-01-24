@@ -4,46 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AnnyGabDev</title>
-    <link rel="stylesheet" href="css.style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header" id="inicio">
+    <header class="header" id="start">
         <img src="img/hamburguesa.svg" alt="" class="hamburguer">
         <nav class="menu-navegacion">
-            <a href="#inicio">Inicio</a>
-            <a href="#servicio">Servicio</a>
-            <a href="#portafolio">Portafolio</a>
-            <a href="#expertos">Expertos</a>
-            <a href="#contacto">Contacto</a>
+            <a href="#start">Start</a>
+            <a href="#service">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#experts">Experts</a>
+            <a href="#contact">Contact</a>
         </nav>
-        <div class="contenedor head">
-            <h1>Convertimos tus sueños en realidad</h1>
+        <div class="container head">
+            <h1 class="title">Quality Apps for your business</h1>
             <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         </div>
     </header>
     <main>
-        <section class="services contenedor" id="servicio">
-            <h2 class="subtitulo">Nuestro servicio</h2>
-                <div class="contenedorservicio">
+        <section class="services container" id="service">
+            <h2 class="subtitle">Our service</h2>
+                <div class="container-service">
                     <img src="img/checklist.svg" alt="">
-                    <div class="checklist-servicio">
+                    <div class="checklist-service">
                         <div class="service">
-                            <h3 class="n-service"><span class="number">1</span>Diseño web</h3>
+                            <h3 class="n-service"><span class="number">1</span>Mobile Design</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                 Dignissimos voluptatum architecto odit accusamus doloremque 
                                 eius reiciendis totam aperiam earum dolor!</p>
                         </div>
                         <div class="service">
-                            <h3 class="n-service"><span class="number">2</span>Diseño web</h3>
+                            <h3 class="n-service"><span class="number">2</span>Mobile Design</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                 Dignissimos voluptatum architecto odit accusamus doloremque 
                                 eius reiciendis totam aperiam earum dolor!</p>
                         </div>
                         <div class="service">
-                            <h3 class="n-service"><span class="number">3</span>Diseño web</h3>
+                            <h3 class="n-service"><span class="number">3</span>Mobile Design</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                 Dignissimos voluptatum architecto odit accusamus doloremque 
                                 eius reiciendis totam aperiam earum dolor!</p>
@@ -51,9 +51,62 @@
                     </div>
                 </div>
         </section>
+        <section class="gallery" id="portfolio">
+            <div class="container">
+                <h2 class="subtitle">Gallery</h2>
+                <div class="container-galeria">
+                    <img src="img/one.jpg" alt="img-gallery">
+                    <img src="img/two.jpg" alt="img-gallery">
+                    <img src="img/three.jpg" alt="img-gallery">
+                    <img src="img/four.jpg" alt="img-gallery">
+                    <img src="img/five.jpg" alt="img-gallery">
+                    <img src="img/six.jpg" alt="img-gallery">
+                </div>
+            </div>
+        </section>
+        <!-- <section class="imagen-light">
+            <img src="img/closeLight.svg" alt="" class="close">
+            <img src="" alt="agregar-imagen">
+        </section> -->
+
+        <section class="container"  id= "experts">
+            <h2 class="subtitles">Experts in:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/guycellphone.svg" alt="">
+                    <h3 class="n-expert">Mobile</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/carousel.svg" alt="">
+                    <h3 class="n-expert">Design</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/laptop.svg" alt="">
+                    <h3 class="n-expert">Customer experience</h3>
+                </div>
+            </section>
+        </section>
     </main>
-    <i class="bx bxl-facebook"></i>
-    <i class="bx bxl-twitter"></i>
-    <i class="bx bxl-instagram"></i>
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="contact-us">
+                <h2 class="brand">AnnyGab DevApps</h2>
+                <p>We are experts in creating your applications</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>   
+    <script src="js/lightbox.js"></script>   
 </body>
 </html>
