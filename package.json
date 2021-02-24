@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio/WebSite Template",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d PORTFOLIO"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnyGab/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnyGab/Portfolio/issues"
+  },
+  "homepage": "https://github.com/AnnyGab/Portfolio#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
