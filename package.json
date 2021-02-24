@@ -4,7 +4,7 @@
   "description": "Portfolio/WebSite Template",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d PORTFOLIO"
+    "deploy": "gh-pages -d Portfolio"
   },
   "repository": {
     "type": "git",
